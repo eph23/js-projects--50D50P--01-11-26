@@ -42,13 +42,21 @@ header {
     background-color: var(--primary-color);
 }
 
-main {
+.movies-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+main {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .movie {
-    width: 300px;
+    width: 250px;
     margin: 1rem;
     background-color: var(--secondary-color);
     box-shadow: 0 4ps 5ps rgba(0, 0, 0, 0.2);
